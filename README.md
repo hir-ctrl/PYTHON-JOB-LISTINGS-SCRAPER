@@ -1,1 +1,35 @@
-# Python-Job-Listings-Scraper
+# Python Job Listings Scraper
+
+A lightweight, automated Python scraper built to extract, clean, and organize job postings into structured data. Instead of manually browsing multiple job boards, this tool aggregates relevant listings instantly into a single file.
+
+## Why This Matters
+Finding the right job is a data problem. This tool solves it by saving hours of manual searching. It allows you to track market trends, monitor specific companies, and build a localized job database on demand.
+
+## Key Features
+* **Automated Extraction:** Pulls job titles, companies, locations, and application links in seconds.
+* **Smart Data Cleaning:** Filters out duplicates and formats raw HTML into clean text.
+* **Instant Export:** Saves results directly to a structured `job_listings.csv` for easy filtering in Excel or Google Sheets.
+* **Jupyter Native:** Built inside a `.ipynb` notebook for easy step-by-step execution and visual data debugging.
+
+## Tech Stack
+* **Python 3**
+* [Mention your library here, e.g., BeautifulSoup4 / Selenium / Requests]
+* **Built-in `csv` module** (for zero-dependency data exporting)
+
+## Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   cd Python-Job-Listings-Scraper
+   ```
+
+2. **Set up your environment & install dependencies:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+3. **Run the scraper:**
+   Open `Python_Job_Listings_Scraper.ipynb` in VS Code or Jupyter Notebook and run all cells.
