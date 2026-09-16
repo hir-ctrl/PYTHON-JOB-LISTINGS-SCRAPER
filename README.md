@@ -13,8 +13,9 @@ Finding the right job is a data problem. This tool solves it by saving hours of 
 
 ## Tech Stack
 * **Python 3**
-* [Mention your library here, e.g., BeautifulSoup4 / Selenium / Requests]
-* **Built-in `csv` module** (for zero-dependency data exporting)
+* **Requests** (for handling HTTP requests and fetching page HTML)
+* **BeautifulSoup4** (for parsing HTML and extracting job data)
+* **Built-in `csv` module** (for zero-dependency CSV data exporting)
 
 ## Quick Start
 
