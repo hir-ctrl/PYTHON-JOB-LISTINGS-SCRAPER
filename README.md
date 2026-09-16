@@ -2,6 +2,9 @@
 
 A lightweight, automated Python scraper built to extract, clean, and organize job postings into structured data. Instead of manually browsing multiple job boards, this tool aggregates relevant listings instantly into a single file.
 
+## Project Context
+This tool was developed to solve the practical challenge outlined in the [Roadmap.sh Job Listings Scraper Project](https://roadmap.sh/projects/job-listings-scraper).
+
 ## Why This Matters
 Finding the right job is a data problem. This tool solves it by saving hours of manual searching. It allows you to track market trends, monitor specific companies, and build a localized job database on demand.
 
